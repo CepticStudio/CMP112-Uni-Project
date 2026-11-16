@@ -1,24 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-1817913932549901544
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26a00a881fac8804da5429c147566b92, type: 3}
-  m_Name: PSXDownscaleDitherFeature
-  m_EditorClassIdentifier: Assembly-CSharp::PSXStyleShader.PSXDownscaleDitherFeature
-  m_Active: 1
-  _settings:
-    _shader: {fileID: 4800000, guid: eb732616613fa2d4ab375752805c9e6c, type: 3}
-    _targetResolution: {x: 320, y: 240}
-    _colorBits: 5
-    _ditherStrength: 0.8
-    _renderPassEvent: 500
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45,8 +26,8 @@ MonoBehaviour:
     probeVolumeBlendStatesCS: {fileID: 7200000, guid: b9a23f869c4fd45f19c5ada54dd82176, type: 3}
   m_RendererFeatures:
   - {fileID: 7833122117494664109}
-  - {fileID: -1817913932549901544}
-  m_RendererFeatureMap: ad6b866f10d7b46c183321fae878c5e6
+  - {fileID: 8365456008321070850}
+  m_RendererFeatureMap: ad6b866f10d7b46c027722e0ea111874
   xrSystemData: {fileID: 0}
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   m_AssetVersion: 3
@@ -101,3 +82,22 @@ MonoBehaviour:
     BlurQuality: 0
     Falloff: 100
     SampleCount: -1
+--- !u!114 &8365456008321070850
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26a00a881fac8804da5429c147566b92, type: 3}
+  m_Name: PSXDownscaleDitherFeature
+  m_EditorClassIdentifier: Assembly-CSharp::PSXStyleShader.PSXDownscaleDitherFeature
+  m_Active: 1
+  _settings:
+    _shader: {fileID: 4800000, guid: eb732616613fa2d4ab375752805c9e6c, type: 3}
+    _targetResolution: {x: 320, y: 240}
+    _colorBits: 5
+    _ditherStrength: 0.8
+    _renderPassEvent: 500
