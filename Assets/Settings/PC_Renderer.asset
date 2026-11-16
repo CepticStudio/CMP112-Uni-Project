@@ -98,6 +98,6 @@ MonoBehaviour:
   _settings:
     _shader: {fileID: 4800000, guid: eb732616613fa2d4ab375752805c9e6c, type: 3}
     _targetResolution: {x: 320, y: 240}
-    _colorBits: 5
-    _ditherStrength: 0.8
+    _colorBits: 2.94
+    _ditherStrength: 0.49
     _renderPassEvent: 500
